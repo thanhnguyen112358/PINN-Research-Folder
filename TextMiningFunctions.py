@@ -266,7 +266,7 @@ def main():
 
     parser = argparse.ArgumentParser()
     parser.add_argument("directory", nargs="?",
-                        default=r"E:\PINNs-Research\Searched Articles",
+                        default=r"E:\PINNs-Research-Folder\Searched Articles",
                         help="Folder with PDFs")
     parser.add_argument("--model", default="o3",
                         help="ChatCompletion model id (e.g. o3, o3-mini)")
